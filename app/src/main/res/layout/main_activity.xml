@@ -10,7 +10,7 @@
         android:id="@+id/buttonGoToSecondActivity"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="GotoSecondActivity"
+        android:text="Go to Second Activity"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="16dp"
         android:layout_marginLeft="32dp"

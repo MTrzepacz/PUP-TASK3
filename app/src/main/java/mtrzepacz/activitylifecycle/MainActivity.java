@@ -10,8 +10,8 @@ import android.widget.Chronometer;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button buttonCloseApplication, buttonGotoSecondActivity;
-    Chronometer chronometer;
+    private Button buttonCloseApplication, buttonGotoSecondActivity;
+    private Chronometer chronometer;
 
 
     @Override
@@ -52,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
     public void onBackPressed()
     {
         this.finish();
+        Intent intent = new Intent(getApplicationContext(), SecondActivity.class);
+         startActivity(intent);
     }
 
 }
